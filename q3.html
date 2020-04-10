@@ -11,10 +11,46 @@
 
     <body class="content">
         <h1>Hello World</h1>
-        <h3>Welcome to colourful time displaying program</h3>
-        
+        <h3>Welcome to the Web Browser Info </h3>
+	<h4>Return to index page <a href="../../index.html">Click here!</a></h4>        
+       
+	 <p id = "bInfo"></p>
         <p id ="Result"></p>
+        <span> Number of links here:</span> <a id ="numLinks"></a> <br/><br/>
+        <span> Number of Forms here:</span> <a id ="numForms"></a> <br/><br/>                
 
+        <div class="form">
+            <form id="myForm" action="">
+                <p>**Note Content below this line are for Testing Purpose only!!</p>
+                Enter Student Name: <input id="text1" type="text" name="name" /><br/><br/>   
+                Enter Student Marks: <input id="text2" type="text" name="marks"/>   
+            </form>     
+        </div>
+
+        <div class="form">
+            <form id="myForm" action="">
+                Enter Age: <input id="text1" type="text" name="name" /><br/><br/>   
+                Enter phone num: <input id="text2" type="text" name="marks"/>   
+                
+            </form>     
+        </div>
+        
+        <form>
+            <input type="button" id="submitButton" value="Submit" onclick="add_element_to_array()"/>  <br/> <br/>      
+
+        </form>
+         <h3>My Projects link to the GitHub</h3>
+            <ul>
+                <li>Parking Management System </li>
+                    <a href="https://github.com/Hrijon/Parking-Management-System.git">Click here for the link to github</a>
+                <li>Bootstrap from coursera</li>
+                    <a href="https://github.com/Hrijon/Bootstrap.git">Click here for the link to github</a>
+                <li>Hangman Game</li>
+                    <a href="https://github.com/Hrijon/Hangman-Game.git">Click here for the link to github</a>
+                <li>Triangle side verification</li>
+                    <a href="https://github.com/Hrijon/C-programme.git">Click here for the link to github</a>
+            </ul>
+       
 
         <script src="q3.js" >
         
